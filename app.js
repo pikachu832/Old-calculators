@@ -5,14 +5,6 @@
 // alert(':הגיל שלך בשבועות' + a * 52);
 // alert(':הגיל שלך בחודשים' + a * 12);
 
-// alert('ברוך הבא לחישוב ציון לבית הספר' + '😊' );
-// alert('הכניסו מספרים מ-1 עד-100');
-// let num40 = +prompt('בכמה לחלק' + '?' + 'מספרים בין-5 ל-24');
-// while ( num40 > 24 || num40 < 5 || isNaN(num40)) {
-//     num40 = +prompt('קלט לא תקין! נסו שוב' + ' ' + 'חלקו בין-5 ל-24');
-// }
-
-
 //כאן זה בין הקודים הראשונים לי אחרי שלמדתי על
 // while
 //היום אני כבר יודע שאפר לעשות את זה הרבה הרבה יותר יעיל אבל אין לי כוח
@@ -20,6 +12,14 @@
 // --> https://course-ide-staging.s3.eu-central-1.amazonaws.com/index.html
 
 // (?איך היה לי כוח)
+
+alert('ברוך הבא לחישוב ציון לבית הספר' + '😊' );
+let num40 = +prompt('בכמה לחלק' + '?' + 'מספרים בין-5 ל-24');
+while ( num40 > 24 || num40 < 5 || isNaN(num40)) {
+    num40 = +prompt('קלט לא תקין! נסו שוב' + ' ' + 'חלקו בין-5 ל-24');
+}
+alert('הכניסו מספרים מ-1 עד-100');
+
 
 // מחלק ב-5
 if(num40 == 5){
